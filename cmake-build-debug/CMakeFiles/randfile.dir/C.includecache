@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jason/systems/randfile/main.c
+stdlib.h
+-
+stdio.h
+-
+fcntl.h
+-
+errno.h
+-
+string.h
+-
+zconf.h
+-
+
